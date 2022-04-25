@@ -577,6 +577,10 @@ textarea:valid {
   background-color: #e8f0fe;
 }
 
+td input[type='email']:focus {
+  background-color: #e8f0fe;
+}
+
 td input::placeholder,
 textarea::placeholder {
   color: var(--placeholder);
