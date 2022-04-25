@@ -45,12 +45,12 @@
     ) 
   ); 
 
-if(!isset($_GET['divisi'])) {
-  echo "<script>
-            alert('Tidak bisa langsung akses halaman divisi');
-            document.location.href = 'LandingPage.html';
-        </script>"; 
-} 
+// if(!isset($_GET['divisi'])) {
+//   echo "<script>
+//             alert('Tidak bisa langsung akses halaman divisi');
+//             document.location.href = 'LandingPage.html';
+//         </script>"; 
+// } 
 ?>
 <!DOCTYPE html>
 <html lang="en">
