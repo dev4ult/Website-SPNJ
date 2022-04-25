@@ -1,19 +1,57 @@
 <?php 
 
-  $data_divisi = array(
-    "android" =>
-array ( "name" => "ANDROID", "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vitae consequatur sapiente molestiae distinctio voluptate incidunt nobis hic quod maxime?", "lesson" => array ( array ( "name" =>
-"ANDROID", "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit." ), array ( "name" => "KOTLIN", "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vitae" ) ) ), "website" => array (
-"name" => "WEBSITE", "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vitae consequatur sapiente molestiae distinctio", "lesson" => array ( array ( "name" => "HTML", "description" => "Lorem ipsum dolor sit
-amet consectetur adipisicing elit." ), array ( "name" => "CSS", "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vitae" ), array ( "name" => "Javascript", "description" => "Lorem ipsum dolor sit amet
-consectetur adipisicing" ) ) ), "motion-graphic" => array ( "name" => "MOTION GRAPHIC", "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vitae consequatur sapiente", "lesson" => array ( array ( "name" =>
-"Ai", "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit." ), array ( "name" => "Ae", "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vitae" ) ) ) ); if(!isset($_GET['divisi'])) {
-echo "
-<script>
-  alert('Tidak bisa langsung akses halaman divisi');
-  document.location.href = 'LandingPage.html';
-</script>
-"; } ?>
+  $data_divisi = array (
+    "android" => array ( 
+      "name" => "ANDROID", 
+      "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vitae consequatur sapiente molestiae distinctio voluptate incidunt nobis hic quod maxime?", 
+      "lesson" => array ( 
+        array ( 
+          "name" => "ANDROID", 
+          "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit." 
+        ), array ( 
+          "name" => "KOTLIN", 
+          "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vitae" 
+        ) 
+      ) 
+    ), 
+    "website" => array (
+      "name" => "WEBSITE", 
+      "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vitae consequatur sapiente molestiae distinctio", 
+      "lesson" => array ( 
+        array ( 
+          "name" => "HTML", 
+          "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit." 
+        ), array ( 
+          "name" => "CSS", 
+          "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vitae" 
+        ), array ( 
+          "name" => "Javascript", 
+          "description" => "Lorem ipsum dolor sit amet consectetur adipisicing" 
+        ) 
+      ) 
+    ), 
+    "motion-graphic" => array ( 
+      "name" => "MOTION GRAPHIC", 
+      "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vitae consequatur sapiente", 
+      "lesson" => array ( 
+        array ( 
+          "name" => "Ai", 
+          "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit." 
+        ), array ( 
+          "name" => "Ae", 
+          "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vitae" 
+        ) 
+      ) 
+    ) 
+  ); 
+
+if(!isset($_GET['divisi'])) {
+  echo "<script>
+            alert('Tidak bisa langsung akses halaman divisi');
+            document.location.href = 'LandingPage.html';
+        </script>"; 
+} 
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
