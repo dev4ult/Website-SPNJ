@@ -1,0 +1,168 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>[] SPNJ Registration []</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <nav class="fixed-top">
+      <div class="nav-menu">
+        <a class="ul-menu menu">Menu</a>
+        <ul>
+          <li>
+            <a class="ul-menu" href="LandingPage.html">Home</a>
+          </li>
+          <li>
+            <a class="ul-menu" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <a class="ul-menu theme-button" onclick="toogleDarkmode()">Dark</a>
+    </nav>
+    <header>
+      <h1><span class="sahabat-text">SAHABAT</span> <span class="pnj-text">PNJ</span></h1>
+      <div class="arrow-down"></div>
+    </header>
+    <main>
+      <form action="">
+        <fieldset>
+          <legend>
+            <h2 class="form-title">FORM REGISTRASI</h2>
+          </legend>
+          <table>
+            <tr>
+              <td>Nama</td>
+              <td>:</td>
+              <td><input type="text" id="nama" name="nama" placeholder="Input Namamu..." required pattern=".*\S.*" /></td>
+            </tr>
+            <tr>
+              <td>Email</td>
+              <td>:</td>
+              <td><input type="email" id="email" name="email" required placeholder="emailMu@xMail.com" pattern=".*\S.*" /></td>
+            </tr>
+            <tr>
+              <td>Nomor Telepon</td>
+              <td>:</td>
+              <td><input type="text" id="phoneNumber" name="phoneNumber" required placeholder="08*********" pattern=".*\S.*" /></td>
+            </tr>
+            <tr>
+              <td colspan="3">
+                <hr />
+              </td>
+            </tr>
+            <tr>
+              <td>NIM</td>
+              <td>:</td>
+              <td><input type="number" id="nim" name="nim" required placeholder="21074*****" /></td>
+            </tr>
+            <tr>
+              <td>Prodi</td>
+              <td>:</td>
+              <td>
+                <select name="prodi" id="prodi" required>
+                  <option value="select one option" disabled selected>PILIH SATU OPSI</option>
+                  <option value="Teknik Informatika">Teknik Informatika</option>
+                  <option value="Teknik Multimedia dan Digital">Teknik Multimedia dan Digital</option>
+                  <option value="Teknik Multimedia dan Jaringan">Teknik Multimedia dan Jaringan</option>
+                  <option value="Teknik Komputer dan Jaringan">Teknik Komputer dan Jaringan</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>Kelas</td>
+              <td>:</td>
+              <td><input type="text" id="kelas" name="kelas" required placeholder="TI-2A..." pattern=".*\S.*" /></td>
+            </tr>
+          </table>
+          <hr />
+          <div class="q-section">
+            <label for="motivasi">
+              <h3 class="q-title">Alasan ingin menjadi anggota</h3>
+            </label>
+            <textarea name="motivasi" id="motivasi" rows="10" placeholder="Ceritakan alasanmu..." required></textarea>
+          </div>
+          <hr />
+          <div class="q-section">
+            <div class="pilih-divisi">
+              <h3 class="q-title">Divisi :</h3>
+              <select name="" id="">
+                <option value="selectOneOption" disabled selected>PILIH SATU OPSI</option>
+                <option value="Android">Android</option>
+                <option value="Website">Website</option>
+                <option value="Motion Graphic">Motion Graphic</option>
+              </select>
+            </div>
+            <div class="pengalaman-divisi">
+              <h3 class="q-title">Apakah sudah ada pengalaman dengan divisi yang dipilih?</h3>
+              <div class="konfirmasi">
+                <label for="yes"><input type="radio" name="konfirmasi" id="yes" /> IYA</label>
+                <label for="no"><input type="radio" name="konfirmasi" id="no" checked /> TIDAK</label>
+              </div>
+              <textarea name="pengalaman" id="pengalaman" rows="10" placeholder="Ceritakan pengalamanmu..." required></textarea>
+            </div>
+          </div>
+          <div class="text-align-center">
+            <button type="submit" name="submit" class="submit-button">SUBMIT</button>
+          </div>
+        </fieldset>
+      </form>
+    </main>
+    <footer id="contact">
+      <div class="arrow-up"></div>
+      <div class="footer-container">
+        <div class="contact-form">
+          <h4 class="footer-title">Ask Us</h4>
+          <form action="">
+            <table>
+              <tr>
+                <td><label for="name">Name</label></td>
+                <td>:</td>
+                <td><input id="name" type="text" placeholder="Your name..." required /></td>
+              </tr>
+              <tr>
+                <td><label for="email">Email</label></td>
+                <td>:</td>
+                <td><input id="email" type="email" placeholder="YourEmail@Xmail.com" required /></td>
+              </tr>
+              <tr>
+                <td><label for="question">Question</label></td>
+                <td>:</td>
+                <td>
+                  <textarea id="question" name="question" id="" cols="24" rows="7" placeholder="How many member you got there?" required></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3" class="text-align-center">
+                  <button type="submit" name="submit" class="submit-button">SUBMIT</button>
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+        <div class="socmed">
+          <h4 class="footer-title">Follow Us</h4>
+          <div class="logo-container">
+            <div>
+              <a href="#">
+                <img src="logos/facebook.png" alt="facebook" />
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="logos/instagram.png" alt="instagram" />
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="logos/twitter.png" alt="twitter" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
