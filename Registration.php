@@ -13,7 +13,7 @@
         <a class="ul-menu menu">Menu</a>
         <ul>
           <li>
-            <a class="ul-menu" href="LandingPage.html">Home</a>
+            <a class="ul-menu" href="LandingPage.php">Home</a>
           </li>
           <li>
             <a class="ul-menu" href="#contact">Contact</a>

@@ -65,7 +65,7 @@
           <img loading="lazy" id="slide3" src="slider/marvin-meyer-SYTO3xs06fU-unsplash.jpg" alt="unsplash3" />
         </div>
         <div class="join-us">
-          <a class="join-button" href="Registration.html">JOIN US</a>
+          <a class="join-button" href="Registration.php">JOIN US</a>
         </div>
       </section>
     </main>
