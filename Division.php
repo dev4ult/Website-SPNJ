@@ -89,7 +89,7 @@
         <a class="ul-menu menu">Menu</a>
         <ul>
           <li>
-            <a class="ul-menu" href="LandingPage.php">Home</a>
+            <a class="ul-menu" href="LandingPage.html">Home</a>
           </li>
           <li>
             <a class="ul-menu" href="#project">Project</a>
@@ -165,7 +165,7 @@
           <img loading="lazy" id="slide3" src="slider/marvin-meyer-SYTO3xs06fU-unsplash.jpg" alt="unsplash3" />
         </div>
         <div class="join-us">
-          <a class="join-button" href="Registration.php">JOIN US</a>
+          <a class="join-button" href="Registration.html">JOIN US</a>
         </div>
       </section>
     </main>
